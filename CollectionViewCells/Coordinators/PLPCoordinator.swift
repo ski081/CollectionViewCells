@@ -10,6 +10,7 @@ import UIKit
 
 class PLPCoordinator: Coordinator {
     var navigationController: UINavigationController!
+    var childCoordinators: [Coordinator] = []
     
     init(withNavController navController: UINavigationController) {
         self.navigationController = navController
@@ -22,9 +23,8 @@ class PLPCoordinator: Coordinator {
     }
     
     func productWasSelected(forProduct product: Product) {
-        let pdpCoordinator = PDPCoordinator(withNavController: navigationController)
+        let pdpCoordinator = PDPCoordinator(withNavController: navigationController, product: product)
+        childCoordinators.append(pdpCoordinator)
+        pdpCoordinator.start()
     }
 }
-
-
-

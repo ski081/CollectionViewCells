@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		999FB3DC20933C9000B3A9AA /* PDPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FB3DA20933C9000B3A9AA /* PDPCollectionViewCell.swift */; };
-		999FB3DD20933C9000B3A9AA /* PDPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999FB3DB20933C9000B3A9AA /* PDPCollectionViewCell.xib */; };
+		1B09B7FD7495A7D58A196C99 /* Pods_CollectionViewCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37399A9E2A05DDDCA16310E0 /* Pods_CollectionViewCells.framework */; };
+		930933562093A56800EBDF46 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930933552093A56800EBDF46 /* UIView+Anchors.swift */; };
+		932E05DF209391C90010F48C /* EPCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932E05DD209391C90010F48C /* EPCCollectionViewCell.swift */; };
+		932E05E0209391C90010F48C /* EPCCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932E05DE209391C90010F48C /* EPCCollectionViewCell.xib */; };
+		932E05E2209393850010F48C /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932E05E1209393850010F48C /* Test.xib */; };
+		932E05E42093941A0010F48C /* EPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932E05E32093941A0010F48C /* EPCViewController.swift */; };
+		932E05E62093943C0010F48C /* EPCViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932E05E52093943C0010F48C /* EPCViewController.storyboard */; };
+		938B9EFF20938CFA00506281 /* RTFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B9EFD20938CFA00506281 /* RTFCollectionViewCell.swift */; };
+		938B9F0020938CFA00506281 /* RTFCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938B9EFE20938CFA00506281 /* RTFCollectionViewCell.xib */; };
+		938B9F0220938F1A00506281 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B9F0120938F1A00506281 /* SectionData.swift */; };
+		93B7D7BB2093A28400C19FDF /* PDPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7D7BA2093A28400C19FDF /* PDPViewModel.swift */; };
+		93B7D7BD2093A39600C19FDF /* EPCContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7D7BC2093A39600C19FDF /* EPCContent.swift */; };
+		999FB3DC20933C9000B3A9AA /* ProductInfomationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FB3DA20933C9000B3A9AA /* ProductInfomationCollectionViewCell.swift */; };
+		999FB3DD20933C9000B3A9AA /* ProductInfomationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999FB3DB20933C9000B3A9AA /* ProductInfomationCollectionViewCell.xib */; };
 		99BE303620924F3F008EE598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE303520924F3F008EE598 /* AppDelegate.swift */; };
 		99BE303820924F3F008EE598 /* PLPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE303720924F3F008EE598 /* PLPViewController.swift */; };
 		99BE303B20924F3F008EE598 /* PLPViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BE303920924F3F008EE598 /* PLPViewController.storyboard */; };
@@ -44,8 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		999FB3DA20933C9000B3A9AA /* PDPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPCollectionViewCell.swift; sourceTree = "<group>"; };
-		999FB3DB20933C9000B3A9AA /* PDPCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDPCollectionViewCell.xib; sourceTree = "<group>"; };
+		37399A9E2A05DDDCA16310E0 /* Pods_CollectionViewCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930933552093A56800EBDF46 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		932E05DD209391C90010F48C /* EPCCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCCollectionViewCell.swift; sourceTree = "<group>"; };
+		932E05DE209391C90010F48C /* EPCCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EPCCollectionViewCell.xib; sourceTree = "<group>"; };
+		932E05E1209393850010F48C /* Test.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test.xib; sourceTree = "<group>"; };
+		932E05E32093941A0010F48C /* EPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCViewController.swift; sourceTree = "<group>"; };
+		932E05E52093943C0010F48C /* EPCViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EPCViewController.storyboard; sourceTree = "<group>"; };
+		938B9EFD20938CFA00506281 /* RTFCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTFCollectionViewCell.swift; sourceTree = "<group>"; };
+		938B9EFE20938CFA00506281 /* RTFCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTFCollectionViewCell.xib; sourceTree = "<group>"; };
+		938B9F0120938F1A00506281 /* SectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+		93B7D7BA2093A28400C19FDF /* PDPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPViewModel.swift; sourceTree = "<group>"; };
+		93B7D7BC2093A39600C19FDF /* EPCContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCContent.swift; sourceTree = "<group>"; };
+		999FB3DA20933C9000B3A9AA /* ProductInfomationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfomationCollectionViewCell.swift; sourceTree = "<group>"; };
+		999FB3DB20933C9000B3A9AA /* ProductInfomationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductInfomationCollectionViewCell.xib; sourceTree = "<group>"; };
 		99BE303220924F3F008EE598 /* CollectionViewCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BE303520924F3F008EE598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99BE303720924F3F008EE598 /* PLPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +91,8 @@
 		99BE309120925790008EE598 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		99BE3093209258B4008EE598 /* PDPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPViewController.swift; sourceTree = "<group>"; };
 		99BE3095209258E6008EE598 /* PDPViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PDPViewController.storyboard; sourceTree = "<group>"; };
+		E3C6BFCF2862E88FB804E4E0 /* Pods-CollectionViewCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewCells/Pods-CollectionViewCells.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC5A4711518EF56CE0D0F37 /* Pods-CollectionViewCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewCells/Pods-CollectionViewCells.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B09B7FD7495A7D58A196C99 /* Pods_CollectionViewCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +121,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255F32B99FE357826A91F6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C6BFCF2862E88FB804E4E0 /* Pods-CollectionViewCells.debug.xcconfig */,
+				EBC5A4711518EF56CE0D0F37 /* Pods-CollectionViewCells.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		930933542093A55500EBDF46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				930933552093A56800EBDF46 /* UIView+Anchors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93B7D7B92093A27100C19FDF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93B7D7BA2093A28400C19FDF /* PDPViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		99BE302920924F3F008EE598 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +153,8 @@
 				99BE304920924F40008EE598 /* CollectionViewCellsTests */,
 				99BE305420924F40008EE598 /* CollectionViewCellsUITests */,
 				99BE303320924F3F008EE598 /* Products */,
+				255F32B99FE357826A91F6B4 /* Pods */,
+				E9BFAF2BCE0D2066419C8365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +171,9 @@
 		99BE303420924F3F008EE598 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				930933542093A55500EBDF46 /* Extensions */,
 				99BE30662092507B008EE598 /* App */,
+				93B7D7B92093A27100C19FDF /* ViewModels */,
 				99BE306720925094008EE598 /* ViewControllers */,
 				99BE306320924FAC008EE598 /* Views */,
 				99BE306B2092536D008EE598 /* Coordinators */,
@@ -126,8 +182,9 @@
 				99BE303C20924F40008EE598 /* Assets.xcassets */,
 				99BE303E20924F40008EE598 /* LaunchScreen.storyboard */,
 				99BE304120924F40008EE598 /* Info.plist */,
-				99BE3095209258E6008EE598 /* PDPViewController.storyboard */,
 				99BE303920924F3F008EE598 /* PLPViewController.storyboard */,
+				99BE3095209258E6008EE598 /* PDPViewController.storyboard */,
+				932E05E52093943C0010F48C /* EPCViewController.storyboard */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -154,8 +211,13 @@
 			isa = PBXGroup;
 			children = (
 				99BE306420924FB9008EE598 /* PLPCollectionViewCell.swift */,
-				999FB3DA20933C9000B3A9AA /* PDPCollectionViewCell.swift */,
-				999FB3DB20933C9000B3A9AA /* PDPCollectionViewCell.xib */,
+				999FB3DA20933C9000B3A9AA /* ProductInfomationCollectionViewCell.swift */,
+				999FB3DB20933C9000B3A9AA /* ProductInfomationCollectionViewCell.xib */,
+				938B9EFD20938CFA00506281 /* RTFCollectionViewCell.swift */,
+				938B9EFE20938CFA00506281 /* RTFCollectionViewCell.xib */,
+				932E05DD209391C90010F48C /* EPCCollectionViewCell.swift */,
+				932E05DE209391C90010F48C /* EPCCollectionViewCell.xib */,
+				932E05E1209393850010F48C /* Test.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +235,7 @@
 			children = (
 				99BE303720924F3F008EE598 /* PLPViewController.swift */,
 				99BE3093209258B4008EE598 /* PDPViewController.swift */,
+				932E05E32093941A0010F48C /* EPCViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,8 +262,18 @@
 			isa = PBXGroup;
 			children = (
 				99BE309120925790008EE598 /* Product.swift */,
+				938B9F0120938F1A00506281 /* SectionData.swift */,
+				93B7D7BC2093A39600C19FDF /* EPCContent.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E9BFAF2BCE0D2066419C8365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37399A9E2A05DDDCA16310E0 /* Pods_CollectionViewCells.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99BE305A20924F40008EE598 /* Build configuration list for PBXNativeTarget "CollectionViewCells" */;
 			buildPhases = (
+				1C48EB27A2F52310B1A00657 /* [CP] Check Pods Manifest.lock */,
 				99BE302E20924F3F008EE598 /* Sources */,
 				99BE302F20924F3F008EE598 /* Frameworks */,
 				99BE303020924F3F008EE598 /* Resources */,
+				9FAF37B82201B3BCC61170D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,9 +383,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BE304020924F40008EE598 /* LaunchScreen.storyboard in Resources */,
-				999FB3DD20933C9000B3A9AA /* PDPCollectionViewCell.xib in Resources */,
+				932E05E2209393850010F48C /* Test.xib in Resources */,
+				999FB3DD20933C9000B3A9AA /* ProductInfomationCollectionViewCell.xib in Resources */,
 				99BE303D20924F40008EE598 /* Assets.xcassets in Resources */,
+				938B9F0020938CFA00506281 /* RTFCollectionViewCell.xib in Resources */,
+				932E05E0209391C90010F48C /* EPCCollectionViewCell.xib in Resources */,
 				99BE3096209258E6008EE598 /* PDPViewController.storyboard in Resources */,
+				932E05E62093943C0010F48C /* EPCViewController.storyboard in Resources */,
 				99BE303B20924F3F008EE598 /* PLPViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,21 +410,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C48EB27A2F52310B1A00657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewCells-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAF37B82201B3BCC61170D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewCells/Pods-CollectionViewCells-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-14/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewCells/Pods-CollectionViewCells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99BE302E20924F3F008EE598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932E05DF209391C90010F48C /* EPCCollectionViewCell.swift in Sources */,
+				930933562093A56800EBDF46 /* UIView+Anchors.swift in Sources */,
 				99BE306D2092537A008EE598 /* PLPCoordinator.swift in Sources */,
 				99BE309220925790008EE598 /* Product.swift in Sources */,
+				932E05E42093941A0010F48C /* EPCViewController.swift in Sources */,
 				99BE306A20925313008EE598 /* Coordinator.swift in Sources */,
-				999FB3DC20933C9000B3A9AA /* PDPCollectionViewCell.swift in Sources */,
+				938B9EFF20938CFA00506281 /* RTFCollectionViewCell.swift in Sources */,
+				999FB3DC20933C9000B3A9AA /* ProductInfomationCollectionViewCell.swift in Sources */,
 				99BE306F2092539C008EE598 /* StoryboardInitializable.swift in Sources */,
 				99BE303820924F3F008EE598 /* PLPViewController.swift in Sources */,
 				99BE303620924F3F008EE598 /* AppDelegate.swift in Sources */,
 				99BE307120925763008EE598 /* PDPCoordinator.swift in Sources */,
 				99BE3094209258B4008EE598 /* PDPViewController.swift in Sources */,
 				99BE306520924FB9008EE598 /* PLPCollectionViewCell.swift in Sources */,
+				938B9F0220938F1A00506281 /* SectionData.swift in Sources */,
+				93B7D7BD2093A39600C19FDF /* EPCContent.swift in Sources */,
+				93B7D7BB2093A28400C19FDF /* PDPViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,15 +641,13 @@
 		};
 		99BE305B20924F40008EE598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C6BFCF2862E88FB804E4E0 /* Pods-CollectionViewCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCells/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -534,15 +657,13 @@
 		};
 		99BE305C20924F40008EE598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC5A4711518EF56CE0D0F37 /* Pods-CollectionViewCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCells/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -558,11 +679,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCellsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCellsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -579,11 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCellsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCellsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -599,11 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCellsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCellsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -619,11 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX49LZU2AV;
 				INFOPLIST_FILE = CollectionViewCellsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobstruzsoftware.sprinter.CollectionViewCellsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

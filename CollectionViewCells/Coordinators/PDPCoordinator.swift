@@ -10,14 +10,17 @@ import UIKit
 
 class PDPCoordinator: Coordinator {
     var navigationController: UINavigationController!
+    let product: Product
     
-    init(withNavController navController: UINavigationController) {
+    init(withNavController navController: UINavigationController, product: Product) {
         self.navigationController = navController
+        self.product = product
     }
     
     func start() {
         let pdpVC = PDPViewController.instantiate()
         pdpVC.coordinator = self
+        pdpVC.product = product
         navigationController.pushViewController(pdpVC, animated: true)
     }
 }

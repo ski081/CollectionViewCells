@@ -1,0 +1,6 @@
+framework module Pods_CollectionViewCells {
+  umbrella header "Pods-CollectionViewCells-umbrella.h"
+
+  export *
+  module * { export * }
+}

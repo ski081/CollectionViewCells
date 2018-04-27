@@ -33,7 +33,8 @@ extension PLPViewController: UICollectionViewDataSource {
 }
 
 extension PLPViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let product = Product(description: "Description", price: "$4.00", reviewCount: 10)
+        coordinator.productWasSelected(forProduct: product)
+    }
 }
-
-
